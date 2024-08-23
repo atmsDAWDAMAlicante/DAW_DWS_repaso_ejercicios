@@ -1,9 +1,10 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Cabecera.ascx.cs" Inherits="GesPresta.Cabecera" %>
 
 <div><!-- falta añadir la propiedad CssClass para establecer la clase css -->
-<asp:LinkButton ID="LinkButtonCabecera1" runat="server">Inicio</asp:LinkButton>
-<asp:LinkButton ID="LinkButtonCabecera2" runat="server">Empleados</asp:LinkButton>
-<asp:LinkButton ID="LinkButtonCabecera3" runat="server">Prestaciones</asp:LinkButton>
+<!-- Para obtener la barra de navegación se utilizan los controles LinkButton -->
+    <asp:LinkButton ID="LinkButtonCabecera1" runat="server">Inicio</asp:LinkButton>
+    <asp:LinkButton ID="LinkButtonCabecera2" runat="server">Empleados</asp:LinkButton>
+    <asp:LinkButton ID="LinkButtonCabecera3" runat="server">Prestaciones</asp:LinkButton>
 </div>
 <br />
 <div>
