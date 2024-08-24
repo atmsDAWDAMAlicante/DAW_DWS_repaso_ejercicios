@@ -1,0 +1,154 @@
+﻿/* Estilos de etiquetas */
+body {
+    width: 98%;
+    margin-left: 10px;
+}
+
+
+/* Escritura: estilos y alineación */
+
+.negrita {
+    font-weight: bold;
+}
+
+.sinNegrita {
+    font-weight: normal;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.sansSerif{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centrado{
+    text-align: center;
+}
+
+
+/* Bordes */
+
+.bordeAzul {
+    border: solid 1px #0026FF;
+}
+
+.bordeGris {
+    border: solid 1px #808080;
+}
+
+
+/* Espaciado vertical entre contenedores */
+
+.espVerticalMuyProximoArriba20 {
+    margin-top: -20px;
+}
+
+.espVerticalMuyProximoArriba25{
+    margin-top:-25px;
+}
+
+.espVerticalProximoAbajo10 {
+    margin-bottom: -10px;
+}
+
+.espVerticalProximoAbajo15 {
+    margin-bottom: -15px;
+}
+
+
+/* Espaciado horizontal entre contenedores */
+
+.espHorizontalNormal10 {
+    margin-right: 10px;
+}
+
+.espHorizontalNormal15 {
+    margin-right: 15px;
+}
+
+.espHorizontalNormal20 {
+    margin-right: 20px;
+}
+
+.espHorizontalNormal50 {
+    margin-right: 50px;
+}
+
+
+/* Contenedores: tamaños */
+
+.contenedor98 {
+    width: 98%;
+    margin-left: 10px;
+}
+
+.contenedor95 {
+    width: 95%;
+    margin-left: 10px;
+}
+
+
+/* Espaciados genéricos para contenedores */
+
+.espaciado15global {
+    margin: 15px;
+}
+
+.espaciado10global {
+    margin: 10px;
+}
+
+.espaciado15horizontal {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.espaciado10horizontal {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.espaciado15vertical {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.espaciado10vertical {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Rellenos genéricos para contenedores */
+
+.relleno15global{
+    padding: 15px;
+}
+
+.relleno10global {
+    padding: 10px;
+}
+
+.relleno15horizontal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.relleno10horizontal {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.relleno15vertical {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.relleno10vertical {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* Contenedores específicos */
