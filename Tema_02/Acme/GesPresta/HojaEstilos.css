@@ -152,3 +152,34 @@ body {
 
 
 /* Contenedores específicos */
+
+
+/* Tablas */
+
+.tabla {
+    display: table;
+    border: 1px solid red;
+    width: 90%;
+    padding: 10px;
+}
+
+.fila {
+    display: table-row;
+}
+
+.celda {
+    display: table-cell;
+
+    width: 20%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.celdaIzq{
+    width: 40%;
+}
+
+.celdaDcha {
+    width: 60%;
+    border: 1px solid blue;
+}
