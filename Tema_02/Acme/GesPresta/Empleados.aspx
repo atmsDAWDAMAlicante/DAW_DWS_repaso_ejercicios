@@ -24,7 +24,7 @@
 
     <h2 class="centrado">DATOS DE LOS EMPLEADOS</h2>
 
-        <div class="contenedor98"><!-- Gran Contenedor -->
+    <div class="contenedor98"><!-- Gran Contenedor -->
         <div class="tabla"><!-- Tabla Label/TextBox -->
 
             <div class="fila"><!-- Fila Código Empleado -->
