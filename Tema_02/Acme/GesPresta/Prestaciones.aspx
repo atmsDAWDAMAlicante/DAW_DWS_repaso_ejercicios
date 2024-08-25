@@ -19,5 +19,85 @@
 
     <h2 class="centrado">DATOS DE LAS PRESTACIONES</h2>
 
+    <div class="contenedor98"><!-- Gran Contenedor -->
+
+        <div class="tabla"><!-- Tabla Label/TextBox -->
+
+            <div class="fila"><!-- Fila Código Prestación -->
+
+                <div class="celda celdaIzq">
+                    xxx
+                </div>
+                <div class="celda celdaDcha">
+                    yyy
+                </div>
+
+            </div><!-- Fin Fila Código Prestación -->
+
+
+            <div class="fila"><!-- Fila Descripción -->
+
+                <div class="celda celdaIzq">
+                    xxx
+                </div>
+                <div class="celda celdaDcha">
+                    yyy
+                </div>
+
+            </div><!-- Fin Fila Descripción -->
+
+
+            <div class="fila"><!-- Fila Importe Fijo -->
+
+                <div class="celda celdaIzq">
+                    xxx
+                </div>
+                <div class="celda celdaDcha">
+                    yyy
+                </div>
+
+            </div><!-- Fin Fila Importe Fijo -->
+
+
+            <div class="fila"><!-- Fila Porcentaje del Importe -->
+
+                <div class="celda celdaIzq">
+                    xxx
+                </div>
+                <div class="celda celdaDcha">
+                    yyy
+                </div>
+
+            </div><!-- Fin Fila Porcentaje del Importe -->
+
+            <div class="fila"><!-- Fila Tipo de Prestación - DropDownList -->
+
+                <div class="celda celdaIzq">
+                    xxx
+                </div>
+                <div class="celda celdaDcha">
+                    yyy
+                </div>
+
+            </div><!-- Fila Tipo de Prestación - DropDownList -->
+
+        </div><!-- Fin Tabla Label/TextBox -->
+
+
+        <div class="tabla"><!-- Tabla Botón -->
+
+            <div class="fila"><!-- Fila Botón -->
+
+                <div class="celda celdaIzq">
+                    xxx
+                </div>
+
+            </div><!-- Fin Fila Botón -->
+
+        </div><!-- Fin Tabla Botón -->
+
+    </div><!-- Fin Gran Contenedor -->
+
+
 </body>
 </html>
