@@ -4,9 +4,10 @@
         <div class="centrado espVerticalProximoAbajo10">
         <!-- Para obtener la barra de navegación se utilizan los controles LinkButton -->
             <!-- Se puede añadir la propiedad CssClass para establecer una clase css al control -->
-            <asp:LinkButton ID="LinkButtonCabecera1" CssClass="espHorizontalNormal10" runat="server">Inicio</asp:LinkButton>
-            <asp:LinkButton ID="LinkButtonCabecera2" CssClass="espHorizontalNormal10" runat="server">Empleados</asp:LinkButton>
-            <asp:LinkButton ID="LinkButtonCabecera3" CssClass="espHorizontalNormal10" runat="server">Prestaciones</asp:LinkButton>
+            <!-- La propiedad PostBackUrl del LinkButton es donde se define la URL de destino de cada enlace para la navegación -->
+            <asp:LinkButton ID="LinkButtonCabecera1" CssClass="espHorizontalNormal10" runat="server" PostBackUrl="~/Default.aspx">Inicio</asp:LinkButton>
+            <asp:LinkButton ID="LinkButtonCabecera2" CssClass="espHorizontalNormal10" runat="server" PostBackUrl="~/Empleados.aspx">Empleados</asp:LinkButton>
+            <asp:LinkButton ID="LinkButtonCabecera3" CssClass="espHorizontalNormal10" runat="server" PostBackUrl="~/Prestaciones.aspx">Prestaciones</asp:LinkButton>
         </div>
     <br />
         <div>
