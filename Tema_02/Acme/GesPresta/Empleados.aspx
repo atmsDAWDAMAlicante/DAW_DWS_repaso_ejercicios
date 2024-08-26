@@ -29,12 +29,10 @@
             <div class="fila"><!-- Fila Código Empleado -->
 
                 <div class="celda celdaIzq">
-                    xxx
-                    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblCodEmp" runat="server" Text="Código Empleado" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    yyy
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtCodEmp" runat="server" TabIndex="1"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Código Empleado -->
@@ -43,12 +41,10 @@
             <div class="fila"><!-- Fila NIF -->
 
                 <div class="celda celdaIzq">
-                    xxx
-                <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblNifEmp" runat="server" Text="NIF" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    yyy
-                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtNifEmp" runat="server" TabIndex="2"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila NIF -->
@@ -57,12 +53,10 @@
             <div class="fila"><!-- Fila Apellidos y Nombre -->
 
                 <div class="celda celdaIzq">
-                    xxx
-                <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblNomEmp" runat="server" Text="Apellidos y Nombre" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    yyy
-                    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtNomEmp" runat="server" TabIndex="3"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Apellidos y Nombre -->
@@ -71,12 +65,10 @@
             <div class="fila"><!-- Fila Dirección -->
 
                 <div class="celda celdaIzq">
-                    xxx
-                <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblDirEmp" runat="server" Text="Dirección" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    yyy
-                    <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtDirEmp" runat="server" TabIndex="4"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Dirección -->
@@ -85,12 +77,10 @@
             <div class="fila"><!-- Fila Ciudad -->
 
                 <div class="celda celdaIzq">
-                    xxx
-                <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblCiuEmp" runat="server" Text="Ciudad" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    yyy
-                    <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtCiuEmp" runat="server" TabIndex="5"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Ciudad -->
@@ -98,13 +88,10 @@
             <div class="fila"><!-- Fila Teléfonos -->
 
                 <div class="celda celdaIzq">
-                    xxx
-                <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="txtTelEmp" runat="server" Text="Teléfonos" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    yyy
-               yyy
-                    <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox6" runat="server" TabIndex="6"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Teléfonos -->
@@ -113,13 +100,10 @@
             <div class="fila"><!-- Fila Fecha de Nacimiento -->
 
                 <div class="celda celdaIzq">
-                    xxx
-                abel8" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblFnaEmp" runat="server" Text="Fecha de Nacimiento" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    yyy
-           yyy
-                    <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtFnaEmp" runat="server" TabIndex="7"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Fecha de Nacimiento -->
@@ -128,13 +112,10 @@
             <div class="fila"><!-- Fila Fecha de Ingreso -->
 
                 <div class="celda celdaIzq">
-                    xxx
-                abel7" runat="server" Text="Label"></asp:Label>
+                     <asp:Label ID="lblFinEmp" runat="server" Text="Fecha de Ingreso" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    yyy
-           yyy
-                    <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtFinEmp" runat="server" TabIndex="8"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Fecha de Ingreso -->
@@ -143,13 +124,13 @@
             <div class="fila"><!-- Fila Sexo - RadioButtonList -->
 
                 <div class="celda celdaIzq">
-                    xxx
-                abel9" runat="server" Text="Label"></asp:Label>
+                     <asp:Label ID="lblSexEmp" runat="server" Text="Sexo" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    yyy
-                    <asp:RadioButton ID="RadioButton1" runat="server" />
-                    <asp:RadioButton ID="RadioButton2" runat="server" />
+                    <asp:RadioButtonList ID="rblSexEmp" runat="server" RepeatDirection="Horizontal" TabIndex="9">
+                        <asp:ListItem Selected="True" Value="H">Hombre</asp:ListItem>
+                        <asp:ListItem Value="M">Mujer</asp:ListItem>
+                    </asp:RadioButtonList>
                 </div>
 
             </div><!-- Fin Fila Sexo - RadioButtonList -->
@@ -158,12 +139,14 @@
             <div class="fila"><!-- Fila Departamento - DropDownList -->
 
                 <div class="celda celdaIzq">
-                    xxx
-                <asp:Label ID="Label10" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblDepEmp" runat="server" Text="Departamento"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    yyy
-                    <asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:DropDownList ID="ddlDepEmp" runat="server" TabIndex="10">
+                        <asp:ListItem Selected="True">Investigación</asp:ListItem>
+                        <asp:ListItem>Desarrollo</asp:ListItem>
+                        <asp:ListItem>Innovación</asp:ListItem>
+                        <asp:ListItem>Administración</asp:ListItem>
                     </asp:DropDownList>
                 </div>
 
@@ -177,8 +160,7 @@
             <div class="fila"><!-- Fila Botón -->
 
                 <div class="celda celdaIzq">
-                    xxx
-                <asp:Button ID="Button1" runat="server" Text="Button" />
+                    <asp:Button ID="cmdEnviar" runat="server" Text="Enviar" TabIndex="11" />
                 </div>
 
             </div><!-- Fin Fila Botón -->

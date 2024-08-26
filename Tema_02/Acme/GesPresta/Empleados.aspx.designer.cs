@@ -33,112 +33,103 @@ namespace GesPresta
 		protected global::GesPresta.Cabecera Cabecera1;
 
 		/// <summary>
-		/// Control Label1.
+		/// Control lblCodEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label Label1;
+		protected global::System.Web.UI.WebControls.Label lblCodEmp;
 
 		/// <summary>
-		/// Control TextBox1.
+		/// Control txtCodEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox TextBox1;
+		protected global::System.Web.UI.WebControls.TextBox txtCodEmp;
 
 		/// <summary>
-		/// Control Label2.
+		/// Control lblNifEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label Label2;
+		protected global::System.Web.UI.WebControls.Label lblNifEmp;
 
 		/// <summary>
-		/// Control TextBox2.
+		/// Control txtNifEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox TextBox2;
+		protected global::System.Web.UI.WebControls.TextBox txtNifEmp;
 
 		/// <summary>
-		/// Control Label3.
+		/// Control lblNomEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label Label3;
+		protected global::System.Web.UI.WebControls.Label lblNomEmp;
 
 		/// <summary>
-		/// Control TextBox3.
+		/// Control txtNomEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox TextBox3;
+		protected global::System.Web.UI.WebControls.TextBox txtNomEmp;
 
 		/// <summary>
-		/// Control Label4.
+		/// Control lblDirEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label Label4;
+		protected global::System.Web.UI.WebControls.Label lblDirEmp;
 
 		/// <summary>
-		/// Control TextBox4.
+		/// Control txtDirEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox TextBox4;
+		protected global::System.Web.UI.WebControls.TextBox txtDirEmp;
 
 		/// <summary>
-		/// Control Label5.
+		/// Control lblCiuEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label Label5;
+		protected global::System.Web.UI.WebControls.Label lblCiuEmp;
 
 		/// <summary>
-		/// Control TextBox5.
+		/// Control txtCiuEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox TextBox5;
+		protected global::System.Web.UI.WebControls.TextBox txtCiuEmp;
 
 		/// <summary>
-		/// Control Label6.
+		/// Control txtTelEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label Label6;
-
-		/// <summary>
-		/// Control TextBox7.
-		/// </summary>
-		/// <remarks>
-		/// Campo generado automáticamente.
-		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox TextBox7;
+		protected global::System.Web.UI.WebControls.Label txtTelEmp;
 
 		/// <summary>
 		/// Control TextBox6.
@@ -150,57 +141,84 @@ namespace GesPresta
 		protected global::System.Web.UI.WebControls.TextBox TextBox6;
 
 		/// <summary>
-		/// Control TextBox8.
+		/// Control lblFnaEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox TextBox8;
+		protected global::System.Web.UI.WebControls.Label lblFnaEmp;
 
 		/// <summary>
-		/// Control RadioButton1.
+		/// Control txtFnaEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.RadioButton RadioButton1;
+		protected global::System.Web.UI.WebControls.TextBox txtFnaEmp;
 
 		/// <summary>
-		/// Control RadioButton2.
+		/// Control lblFinEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.RadioButton RadioButton2;
+		protected global::System.Web.UI.WebControls.Label lblFinEmp;
 
 		/// <summary>
-		/// Control Label10.
+		/// Control txtFinEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label Label10;
+		protected global::System.Web.UI.WebControls.TextBox txtFinEmp;
 
 		/// <summary>
-		/// Control DropDownList1.
+		/// Control lblSexEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+		protected global::System.Web.UI.WebControls.Label lblSexEmp;
 
 		/// <summary>
-		/// Control Button1.
+		/// Control rblSexEmp.
 		/// </summary>
 		/// <remarks>
 		/// Campo generado automáticamente.
 		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button Button1;
+		protected global::System.Web.UI.WebControls.RadioButtonList rblSexEmp;
+
+		/// <summary>
+		/// Control lblDepEmp.
+		/// </summary>
+		/// <remarks>
+		/// Campo generado automáticamente.
+		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Label lblDepEmp;
+
+		/// <summary>
+		/// Control ddlDepEmp.
+		/// </summary>
+		/// <remarks>
+		/// Campo generado automáticamente.
+		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.DropDownList ddlDepEmp;
+
+		/// <summary>
+		/// Control cmdEnviar.
+		/// </summary>
+		/// <remarks>
+		/// Campo generado automáticamente.
+		/// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button cmdEnviar;
 		}
 	}
