@@ -69,6 +69,11 @@
 
             </div><!-- Fin Fila Porcentaje del Importe -->
 
+
+            <!-- NOTA PARA el DropDownList -->
+            <!-- La etiqueta asp:ListItem añade un elemento de la lista respectiva -->
+            <!-- En el caso de los DropDownList se puede acceder en la ventana de propiedades -->
+
             <div class="fila"><!-- Fila Tipo de Prestación - DropDownList -->
 
                 <div class="celda celdaIzq">

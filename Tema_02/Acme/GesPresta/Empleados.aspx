@@ -120,7 +120,11 @@
 
             </div><!-- Fin Fila Fecha de Ingreso -->
 
-
+            <!-- NOTA PARA LOS RadioButtonList y DropDownList -->
+            <!-- La etiqueta asp:ListItem añade un elemento de la lista respectiva -->
+            <!-- En el caso de los DropDownList se puede acceder en la ventana de propiedades -->
+            <!-- En el caso de los RadioButtonList no se puede acceder en la ventana de propiedades -->
+            <!-- En el caso de los RadioButtonList en la vista de Diseño, sobre el elemento aparece un cuadro gris con una flecha que da acceso a las propiedades -->
             <div class="fila"><!-- Fila Sexo - RadioButtonList -->
 
                 <div class="celda celdaIzq">
