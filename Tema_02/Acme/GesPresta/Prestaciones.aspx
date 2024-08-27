@@ -97,7 +97,7 @@
 
             <div class="fila"><!-- Fila Botón -->
 
-                <div class="celda celdaIzq">
+                <div class="celda celdaInferiorBoton">
                     <asp:Button ID="cmdEnviar" runat="server" TabIndex="6" Text="Enviar" />
                 </div>
 

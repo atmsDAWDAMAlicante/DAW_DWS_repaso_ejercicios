@@ -23,7 +23,7 @@
 
     <h2 class="centrado">DATOS DE LOS EMPLEADOS</h2>
 
-    <div class="contenedor98"><!-- Gran Contenedor -->
+    <div class="contenedor98" id="tablaEmpleados"><!-- Gran Contenedor -->
         <div class="tabla"><!-- Tabla Label/TextBox -->
 
             <div class="fila"><!-- Fila Código Empleado -->
@@ -163,7 +163,7 @@
 
             <div class="fila"><!-- Fila Botón -->
 
-                <div class="celda celdaIzq">
+                <div class="celda  celdaInferiorBoton">
                     <asp:Button ID="cmdEnviar" runat="server" Text="Enviar" TabIndex="11" />
                 </div>
 
