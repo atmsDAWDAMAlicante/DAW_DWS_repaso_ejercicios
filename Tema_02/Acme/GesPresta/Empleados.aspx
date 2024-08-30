@@ -15,7 +15,7 @@
         }
     </style>
 </head>
-<body>
+<body class="bordeAzul">
     <form id="form1" runat="server">
         <div class="contenedor98 espaciado10vertical">
             <uc1:Cabecera ID="Cabecera1" runat="server" />
@@ -32,7 +32,7 @@
                     <asp:Label ID="lblCodEmp" runat="server" Text="Código Empleado" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    <asp:TextBox ID="txtCodEmp" runat="server" TabIndex="1"></asp:TextBox>
+                    <asp:TextBox ID="txtCodEmp" runat="server" TabIndex="1" Width="200px"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Código Empleado -->
@@ -44,7 +44,7 @@
                     <asp:Label ID="lblNifEmp" runat="server" Text="NIF" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    <asp:TextBox ID="txtNifEmp" runat="server" TabIndex="2"></asp:TextBox>
+                    <asp:TextBox ID="txtNifEmp" runat="server" TabIndex="2" Width="200px"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila NIF -->
@@ -56,7 +56,7 @@
                     <asp:Label ID="lblNomEmp" runat="server" Text="Apellidos y Nombre" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    <asp:TextBox ID="txtNomEmp" runat="server" TabIndex="3"></asp:TextBox>
+                    <asp:TextBox ID="txtNomEmp" runat="server" TabIndex="3" Width="500px"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Apellidos y Nombre -->
@@ -68,7 +68,7 @@
                     <asp:Label ID="lblDirEmp" runat="server" Text="Dirección" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    <asp:TextBox ID="txtDirEmp" runat="server" TabIndex="4"></asp:TextBox>
+                    <asp:TextBox ID="txtDirEmp" runat="server" TabIndex="4" Width="550px"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Dirección -->
@@ -80,7 +80,7 @@
                     <asp:Label ID="lblCiuEmp" runat="server" Text="Ciudad" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    <asp:TextBox ID="txtCiuEmp" runat="server" TabIndex="5"></asp:TextBox>
+                    <asp:TextBox ID="txtCiuEmp" runat="server" TabIndex="5" Width="550px"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Ciudad -->
@@ -91,7 +91,7 @@
                     <asp:Label ID="txtTelEmp" runat="server" Text="Teléfonos" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    <asp:TextBox ID="TextBox6" runat="server" TabIndex="6"></asp:TextBox>
+                    <asp:TextBox ID="TextBox6" runat="server" TabIndex="6" Width="400px"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Teléfonos -->
@@ -103,7 +103,7 @@
                     <asp:Label ID="lblFnaEmp" runat="server" Text="Fecha de Nacimiento" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    <asp:TextBox ID="txtFnaEmp" runat="server" TabIndex="7"></asp:TextBox>
+                    <asp:TextBox ID="txtFnaEmp" runat="server" TabIndex="7" Width="100px"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Fecha de Nacimiento -->
@@ -115,7 +115,7 @@
                      <asp:Label ID="lblFinEmp" runat="server" Text="Fecha de Ingreso" TabIndex="0"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    <asp:TextBox ID="txtFinEmp" runat="server" TabIndex="8"></asp:TextBox>
+                    <asp:TextBox ID="txtFinEmp" runat="server" TabIndex="8" Width="100px"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Fecha de Ingreso -->
