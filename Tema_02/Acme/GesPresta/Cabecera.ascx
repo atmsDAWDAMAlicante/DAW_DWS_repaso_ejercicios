@@ -1,5 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Cabecera.ascx.cs" Inherits="GesPresta.Cabecera" %>
-<div class="bordeGris sansSerif">
+<div class="sansSerif">
     <div class="relleno15global">
         <div class="centrado espVerticalProximoAbajo10">
         <!-- Para obtener la barra de navegación se utilizan los controles LinkButton -->

@@ -13,7 +13,7 @@
     <!-- Aquí se debe agregar el Control de usuario Cabecera.ascx a modo de plantilla -->
     <!-- Se arrastra desde el explorador de soluciones hacia un espacio del Web Form en modo Diseño -->
     <form id="form1" runat="server">
-        <div class="contenedor98 espaciado10vertical">
+        <div>
             <uc1:Cabecera ID="Cabecera1" runat="server" />
         </div>
     </form>

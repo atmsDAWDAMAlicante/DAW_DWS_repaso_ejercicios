@@ -17,7 +17,7 @@
 </head>
 <body class="bordeAzul">
     <form id="form1" runat="server">
-        <div class="contenedor98 espaciado10vertical">
+        <div">
             <uc1:Cabecera ID="Cabecera1" runat="server" />
         </div>
 
