@@ -10,7 +10,7 @@
     <title>Prestaciones - Práctica - Tema 2 - DWS</title>
 <link href="HojaEstilos.css" rel="stylesheet" />
 </head>
-<body>
+<body class="bordeAzul">
     <form id="form1" runat="server">
         <div>
             <uc1:Cabecera ID="Cabecera1" runat="server" />
@@ -28,7 +28,7 @@
                     <asp:Label ID="lblCodPre" runat="server" Text="Código Prestación"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    <asp:TextBox ID="txtCodPre" runat="server" TabIndex="1"></asp:TextBox>
+                    <asp:TextBox ID="txtCodPre" runat="server" TabIndex="1" Width="180px"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Código Prestación -->
@@ -40,7 +40,7 @@
                     <asp:Label ID="lblDesPre" runat="server" Text="Descripción"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    <asp:TextBox ID="txtDesPre" runat="server" TabIndex="2"></asp:TextBox>
+                    <asp:TextBox ID="txtDesPre" runat="server" TabIndex="2" Width="500px"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Descripción -->
@@ -52,7 +52,7 @@
                     <asp:Label ID="lblImpPre" runat="server" Text="Importe Fijo"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    <asp:TextBox ID="txtImpPre" runat="server" TabIndex="3"></asp:TextBox>
+                    <asp:TextBox ID="txtImpPre" runat="server" TabIndex="3" Width="180px"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Importe Fijo -->
@@ -64,7 +64,7 @@
                     <asp:Label ID="lblPorPre" runat="server" Text="Porcentaje del Importe"></asp:Label>
                 </div>
                 <div class="celda celdaDcha">
-                    <asp:TextBox ID="txtPorPre" runat="server" TabIndex="4"></asp:TextBox>
+                    <asp:TextBox ID="txtPorPre" runat="server" TabIndex="4" Width="180px"></asp:TextBox>
                 </div>
 
             </div><!-- Fin Fila Porcentaje del Importe -->
