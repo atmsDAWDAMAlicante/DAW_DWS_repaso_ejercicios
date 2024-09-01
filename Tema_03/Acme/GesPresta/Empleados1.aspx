@@ -169,7 +169,7 @@
             <div class="fila"><!-- Fila Botón -->
 
                 <div class="celda  celdaInferiorBoton">
-                    <asp:Button ID="cmdEnviar" runat="server" Text="Enviar" TabIndex="11" />
+                    <asp:Button ID="cmdEnviar" runat="server" Text="Enviar" TabIndex="11" OnClick="cmdEnviar_Click" />
                 </div>
 
             </div><!-- Fin Fila Botón -->
