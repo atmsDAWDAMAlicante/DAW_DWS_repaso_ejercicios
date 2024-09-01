@@ -177,8 +177,12 @@
         </div><!-- Fin Tabla Botón -->
 
     </div>
-    </form>
 
     <!-- Fin Gran Contenedor -->
-</body>
+        <div style="margin-left:400px;">
+            <asp:Label ID="lblValores" runat="server" BackColor="#66FFFF" Text="lblValores" Width="60%" CssClass="centrado" Visible="False"></asp:Label>
+        </div>
+    </form>
+
+    </body>
 </html>

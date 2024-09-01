@@ -11,7 +11,7 @@ namespace GesPresta
 	// a Empleados1.aspx, también hay que modificar en este archivo Empleados.aspx.cs el nombre de la clase y llamarla Empleados1
 	// para que no entre en conflicto con la clase del archivo orginal copiado
 	// También hay que efectuar un cambio similar en el archivo Empleados1.aspx
-	public partial class Empleados1 : System.Web.UI.Page 
+	public partial class Empleados1: System.Web.UI.Page 
 		{
 		protected void Page_Load(object sender, EventArgs e)
 			{
