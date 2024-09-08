@@ -72,6 +72,7 @@
     <Content Include="Empleados1.aspx" />
     <Content Include="Empleados.aspx" />
     <Content Include="HojaEstilos.css" />
+    <Content Include="Prestaciones1.aspx" />
     <Content Include="Prestaciones.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -103,6 +104,13 @@
     </Compile>
     <Compile Include="Empleados.aspx.designer.cs">
       <DependentUpon>Empleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Prestaciones1.aspx.cs">
+      <DependentUpon>Prestaciones1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prestaciones1.aspx.designer.cs">
+      <DependentUpon>Prestaciones1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Prestaciones.aspx.cs">
       <DependentUpon>Prestaciones.aspx</DependentUpon>
