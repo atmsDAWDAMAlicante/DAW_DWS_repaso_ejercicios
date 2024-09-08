@@ -98,7 +98,9 @@
             <div class="fila"><!-- Fila Botón -->
 
                 <div class="celda celdaInferiorBoton">
-                    <asp:Button ID="cmdEnviar" runat="server" TabIndex="6" Text="Enviar" />
+                    <!-- Para enviar los valores del formulario a otro Web Form se añade al botón el atributo PostBackUrl 
+                        con la URL del Web Form que lo recoge, poniendo delante el carácter ALT GRF + 4-->
+                    <asp:Button ID="cmdEnviar" runat="server" TabIndex="6" Text="Enviar" PostBackUrl="~/Prestaciones1Respuesta.aspx"/>
                 </div>
 
             </div><!-- Fin Fila Botón -->
