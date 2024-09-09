@@ -13,7 +13,9 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>EmpleadosCalendar - Práctica - Tema 3 - DWS</title>
-<link href="HojaEstilos.css" rel="stylesheet" />
+    <link href="HojaEstilos.css" rel="stylesheet" />
+    <!-- Añado una nueva hoja de estilos para gestionar la apariencia de los controles calendar -->
+    <link href="HojaEstilosCalendar.css" rel="stylesheet" />
     <style type="text/css">
         .celda {
             width: 363px;
@@ -163,13 +165,54 @@
 
         </div><!-- Fin Tabla Label/TextBox -->
 
+        <div class="tablaCalendar bordeAzul"><!-- Tabla Calendar -->
+
+            <div class="fila"><!-- Fila Calendar -->
+
+                <div class="celda bordeAzul">
+                    <asp:Label ID="lblFechaNacimiento" runat="server" Text="Fecha de Nacimiento"></asp:Label>
+                    <asp:TextBox ID="txtFechaNacimiento" runat="server" TabIndex="11"></asp:TextBox>
+                    <asp:Label ID="lblError1" runat="server" ForeColor="Red" Text="lblError1"></asp:Label>
+                </div>
+                <div class="celda bordeAzul">
+                    <asp:Calendar ID="Calendar1" runat="server" TabIndex="12"></asp:Calendar>
+                    
+                </div>
+                <div class="celda bordeAzul">
+                    (columna en blanco)
+                </div>
+                <div class="celda bordeAzul">
+                    <asp:Label ID="lblFechaIngreso" runat="server" Text="Fecha de Ingreso"></asp:Label>
+                    <asp:TextBox ID="txtFechaIngreso" runat="server" TabIndex="13"></asp:TextBox>
+                    <asp:Label ID="lblError2" runat="server" ForeColor="Red" Text="lblError2"></asp:Label>
+                </div>
+                <div class="celda bordeAzul">
+                <asp:Calendar ID="Calendar2" runat="server" TabIndex="14"></asp:Calendar>
+                </div>
+                <div class="celda bordeAzul">
+                    (columna en blanco)
+                </div>
+                <div class="celda bordeAzul">
+                    <asp:Label ID="lblAntiguedad" runat="server" Text="Antigüedad"></asp:Label><br />
+                    <asp:TextBox ID="txtYears" runat="server" TabIndex="15" Width="30%"></asp:TextBox>
+                    <asp:Label ID="lblYears" runat="server" Text="Años"></asp:Label>
+                    <asp:TextBox ID="txtMeses" runat="server" TabIndex="16" Width="30%"></asp:TextBox>
+                    <asp:Label ID="lblMeses" runat="server" Text="Meses"></asp:Label>
+                    <asp:TextBox ID="txtDias" runat="server" TabIndex="17" Width="30%"></asp:TextBox>
+                    <asp:Label ID="lblDias" runat="server" Text="Días"></asp:Label>
+                </div>
+
+            </div><!-- Fin Fila Calendar -->
+
+        </div><!-- Fin Tabla Calendar -->
+
 
         <div class="tabla"><!-- Tabla Botón -->
 
             <div class="fila"><!-- Fila Botón -->
 
                 <div class="celda  celdaInferiorBoton">
-                    <asp:Button ID="cmdEnviar" runat="server" Text="Enviar" TabIndex="11" OnClick="cmdEnviar_Click" />
+                    <asp:Button ID="cmdEnviar" runat="server" Text="Enviar" TabIndex="18" OnClick="cmdEnviar_Click" />
                 </div>
 
             </div><!-- Fin Fila Botón -->

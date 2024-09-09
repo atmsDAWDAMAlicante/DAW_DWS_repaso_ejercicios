@@ -73,6 +73,7 @@
     <Content Include="Empleados1.aspx" />
     <Content Include="Empleados.aspx" />
     <Content Include="HojaEstilos.css" />
+    <Content Include="HojaEstilosCalendar.css" />
     <Content Include="Prestaciones1.aspx" />
     <Content Include="Prestaciones.aspx" />
     <Content Include="Prestaciones1Respuesta.aspx" />
